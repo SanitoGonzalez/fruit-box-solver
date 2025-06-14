@@ -5,7 +5,7 @@
 #include <iostream>
 #include <random>
 
-struct Pos {
+struct Position {
     size_t x, y;
 };
 

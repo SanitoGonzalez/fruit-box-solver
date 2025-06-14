@@ -7,6 +7,5 @@ int main() {
     const auto board{Board::generate()};
     board.display();
 
-    Solver solver{};
-    std::cout << solver.solve(board) << std::endl;
+    std::cout << solve(board) << std::endl;
 }
